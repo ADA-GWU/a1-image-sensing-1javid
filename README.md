@@ -154,13 +154,3 @@ Output files are named: `{dataset}-{window}-{disp}-{agg}.png`
 | Dataset 1 | Excellent | Very High | Very Low | Very Clear |
 | Dataset 2 | Moderate | Medium | Medium-High | Moderate |
 | Dataset 3 | Good | High | Low-Medium | Clear |
-
----
-
-### Conclusion
-
-The census transform-based stereo matching algorithm performs well across diverse conditions:
-
-- **Best performance**: Textured, controlled lighting environments (Dataset 1)
-- **Good robustness**: Handles outdoor natural lighting effectively (Datasets 2 & 3)
-- **Parameter sensitivity**: Proper tuning of window sizes and disparity range is crucial
